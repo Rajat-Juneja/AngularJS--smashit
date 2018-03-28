@@ -1,0 +1,23 @@
+div{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto !important;
+    padding: 0;
+}
+div img{
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+
+div img.pause{
+    transform: rotateY(-90deg);
+}
+
+button{
+    width: 100%;
+    border-color: transparent;
+    font-size: 30px;
+    font-weight: 900;
+}
