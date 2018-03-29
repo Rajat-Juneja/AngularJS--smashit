@@ -4,10 +4,10 @@ app.controller("ctrl",($scope,$interval,$timeout)=>{
 images.addClass("pause");
     $timeout(()=>{
     timer = $interval(()=>{
-
-        var random = parseInt(Math.random()*10);
+        do{
+        var random = parseInt(Math.random()*10);}while(random>8)
         // console.log(random);
-        
+        // console.log(images[]);
         // var val = $interval(()=>{
             // console.log(random);
             images[random].classList.remove("pause");
